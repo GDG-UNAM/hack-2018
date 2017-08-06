@@ -32,6 +32,11 @@ html, body {
     width: 400px;
     height: 200px;
     background: #e4b833;
+    background: linear-gradient(top, #FFC819 4%, #fff 100%);
+	background: -webkit-linear-gradient(top, #fff 1%, #FFC819 100%);
+	background: -moz-linear-gradient(top, #FFC819 4%, #fff 100%);
+	background: -ms-linear-gradient(top, #FFC819 4%, #fff 100%);
+	background: -o-linear-gradient(top, #FFC819 4%, #fff 100%);
     -moz-border-radius: 100px 100px 0 0;
     -webkit-border-radius: 100px 100px 0 0;
     border-radius: 500px 500px 0 0;
@@ -49,40 +54,31 @@ html, body {
 }
 
 .cloud_1 {
-	top: 20px;
-	left: 340px;
-	width: 100px;
-	height: 45px;
+	top: 20px; left: 340px;
+	width: 100px; height: 45px;
+	opacity: .8;
 }
 .cloud_2 {
-	top: 200px;
-	left: 640px;
-	width: 120px;
-	height: 60px;
+	top: 200px; left: 640px;
+	width: 120px; height: 60px;
+	opacity: .89;
 }
 .cloud_3 {
-	top: 90px;
-	left: 140px;
-	width: 130px;
-	height: 70px;
+	top: 90px; left: 140px;
+	width: 130px; height: 70px;
+	opacity: .97;
 }
 .cloud_4 {
-	top: 130px;
-	left: 950px;
-	width: 200px;
-	height: 80px;
+	top: 130px; left: 950px;
+	width: 200px; height: 80px;
 }
 .cloud_5 {
-	top: 50px;
-	left: 700px;
-	width: 200px;
-	height: 80px;
+	top: 50px; left: 700px;
+	width: 200px; height: 80px;
 }
 .cloud_6 {
-	top: 250px;
-	left: 140px;
-	width: 250px;
-	height: 110px;
+	top: 250px; left: 140px;
+	width: 250px; height: 110px;
 }
 
 .sh-01{
